@@ -54,7 +54,7 @@ const characters = [
 let randomPos = characters[Math.floor(Math.random() * characters.length)];
 class Player {
   constructor(randomPos) {
-    this.sprite = randomPos;
+    this.sprite = "images/char-boy.png";
     this.horizontal = 101;
     this.vertical = 85;
     this.x = this.horizontal * 2;
