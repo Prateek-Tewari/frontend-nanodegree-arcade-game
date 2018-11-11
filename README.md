@@ -1,7 +1,7 @@
-<h1>Arcade Game (Play it - <a href="https://prateek-tewari.github.io/frontend-nanodegree-arcade-game/" target="_blank">here</a> )</h1>
+<h1>Arcade Game (Play it - <a href="https://prateek-tewari.github.io/frontend-nanodegree-arcade-game/">here</a>)</h1>
 <h2>Udacity FEND Project</h2>
 <h3>How to Play?</h3>
-<strong>The Game is Available both<a href="https://prateek-tewari.github.io/frontend-nanodegree-arcade-game/" target="_blank">Online</a> and Offline</strong><br>
+<strong>The Game is Available both <a href="https://prateek-tewari.github.io/frontend-nanodegree-arcade-game/">Online</a> and Offline</strong><br>
 <h5>Follow the instructions to play:</h5>
 <ul><li>Use arrow keys (Up, Down, Left, Right) to move the player across the game field. Player needs to cross the field and reach the waters (top most row) while avoiding contact with any of the enemies to successfully complete this game.</li>
  <li>Game will automatically reset if the player makes contact with any of the enemies</li>
