@@ -42,20 +42,19 @@ Enemy.prototype.render = function() {
 // Now write your own player class
 // This class requires an update(), render() and
 // a handleInput() method.
-//Array of all the player characters(Not working on github- please check locally).
-/*const characters = [
+//Array of all the player characters
+const characters = [
   "images/char-boy.png",
   "images/char-cat-girl.png",
   "images/char-horn-girl.png",
   "images/char-pink-girl.png",
   "images/char-princess-girl.png"
-];*/
+];
 //Randomizing the character on each refresh
 let randomPos = characters[Math.floor(Math.random() * characters.length)];
 class Player {
   constructor(randomPos) {
-   // this.sprite = randomPos;(Github is not able to load all the characters)
-    this.sprite="images/char-boy.png";
+    this.sprite = randomPos;
     this.horizontal = 101;
     this.vertical = 85;
     this.x = this.horizontal * 2;
